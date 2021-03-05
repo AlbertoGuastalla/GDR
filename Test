@@ -1,0 +1,36 @@
+Gestione delle Reti
+
+per ora concentratevi sui primi due punti e poi iniziate a pensare al 3, che definiremo meglio nelle prossime lezioni
+
+1. Servizio/Applicazione
+
+Github, version control system
+
+2. definizione servizio, core business, come guadagna
+
+Core Business: Software
+Profitto: Inserire i servizi a pagamento piu importanti / finanziatori esterni
+
+GitHub, Inc. è un hosting provider per lo sviluppo di software e il controllo della versione che utilizzano Git. Offre il controllo della versione distribuita e la funzionalità di gestione del codice sorgente (SCM) di Git, oltre alle sue funzionalità aggiuntive.
+
+Fornisce il controllo degli accessi e diverse funzionalità di collaborazione come tracciamento dei bug, richieste di funzionalità, gestione delle attività, integrazione continua e wiki per ogni progetto.
+
+Funzionalita` a pagamento?
+
+E' possibile aderire a dei plan non gratuiti che forniscono funzionalità aggiuntive.
+Inoltre esistono finanziatori esterni.
+
+3. Perché Network Management
+
+- Convincere il CEO ad investire
+- Immaginarsi utente: possibili *problemi* legati al servizio?
+- Disponibilita` servizio? (availability) | downtime non tollerato
+
+Fault Management
+
+Capire il guasto prima che gli utenti finali lo segnalino
+
+Accounting Management
+Configuration Management
+Performance Management
+Security Management
