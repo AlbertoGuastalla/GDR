@@ -4,12 +4,39 @@ per ora concentratevi sui primi due punti e poi iniziate a pensare al 3, che def
 
 1. Servizio/Applicazione
 
-Github, version control system
+Github
 
 2. definizione servizio, core business, come guadagna
 
-Core Business: Software
-Profitto: Inserire i servizi a pagamento piu importanti / finanziatori esterni
+Core Business: Sorgenti e binari
+
+Audit log API
+Keep copies of audit log data to ensure secure IP and maintain compliance for your organization.
+
+GitHub Connect
+Share features and workflows between your GitHub Enterprise Server instance and GitHub Enterprise Cloud.
+
+SAML single sign-on (SSO)
+Use an identity provider to manage the identities of GitHub users and applications.
+
+LDAP
+Access GitHub Enterprise Server using your existing accounts and centrally manage repository access.
+
+IP allow list
+Limit access to known allowed IP addresses.
+
+Pre-receive hooks
+Create requirements for automatically accepting or rejecting a push based on the contents of the push.
+
+Standard Support
+GitHub Support can help you troubleshoot issues you run into while using GitHub. Get support via email.
+
+Invoice billing
+Pay bills via invoice, rather than using your credit card.
+
+Self-hosted deployment
+Self-hosted GitHub for on-prem appliances or self-managed cloud tenants.
+
 
 GitHub, Inc. è un hosting provider per lo sviluppo di software e il controllo della versione che utilizzano Git. Offre il controllo della versione distribuita e la funzionalità di gestione del codice sorgente (SCM) di Git, oltre alle sue funzionalità aggiuntive.
 
@@ -26,10 +53,9 @@ Inoltre esistono finanziatori esterni.
 - Immaginarsi utente: possibili *problemi* legati al servizio?
 - Disponibilita` servizio? (availability) | downtime non tollerato
 
-Fault Management
-
 Capire il guasto prima che gli utenti finali lo segnalino
 
+Fault Management
 Accounting Management
 Configuration Management
 Performance Management
