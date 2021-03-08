@@ -1,0 +1,42 @@
+* Fault Management
+  Quando avviene un evento di fallimento, il componente deve notificare il guasto 
+  al gestore della rete usando protocolli tipo SMNP.
+** problemi
+  - outage a livello di paese 
+  - componenti hardware si rompono
+** operazioni
+  - hardware monitoring -> hardware failure detection -> operator notification 
+
+* Accounting Management
+  ???
+
+* Configuration Management
+  E` un processo per mantenere la consistenza della performance del servizio. 
+  Il sistema deve aiutare l'operatore della rete affinche` possa scegliere 
+  il software piu` appropriato per gestire la rete.
+** problemi 
+  - non riesco a determinare il componente da cambiare nel caso in cui i requisiti
+    del sistema cambino
+  - outages nel caso in cui viene modificato erroneamente un componente di sistema 
+** operazioni
+  - startup/shutdown schede di rete 
+  - assegnazione ip alle macchine 
+
+* Performance Management
+  Monitorare le componenti affinche` si abbia la massima efficienza in termini di prestazioni
+  dei componenti stessi.
+** problemi
+  - costi elevati in quanto viene effettuato un uso eccessivo delle risorse (poca efficienza
+    nell'utilizzo delle componenti)
+** operazioni
+  - monitorare componenti affinche` non vi siano colli di bottiglia o sprechi di risorse
+
+* Security Management
+  Meccanismi di protezione e controllo degli accessi (generazione chiavi crittografiche,
+  password)
+
+** problemi
+  - accessi non autorizzati
+** operazioni
+  - log di tutti gli accessi effettuati alla rete 
+  - segnalazione accessi fraudolenti
