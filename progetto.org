@@ -16,7 +16,7 @@
   - gli utenti possono fare un uso inefficiente delle risorse del sistema
 ** operazioni 
   Nel caso di Github la maggior parte degli utenti sono esterni.
-  - rate limit per gli utenti
+  - [[https://docs.github.com/en/rest/overview/resources-in-the-rest-api#rate-limiting][rate limit]] per gli utenti
 
 * Configuration Management
   E` un processo per mantenere la consistenza della performance del servizio. 
@@ -41,8 +41,9 @@
 
 * Security Management
   Meccanismi di protezione e controllo degli accessi (generazione chiavi crittografiche,
-  password)
-
+  password). Possiamo considerare la parte inerente agli accessi dell'organizzazione che
+  eroga il servizio. Tutti i membri del team di sviluppo dovrebbero avere dei dati di 
+  accesso affinche` possano accedere alla rete (organizzazione) interna al servizio.
 ** problemi
   - accessi non autorizzati
 ** operazioni
