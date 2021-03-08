@@ -8,7 +8,15 @@
   - hardware monitoring -> hardware failure detection -> operator notification 
 
 * Accounting Management
-  ???
+  Limitazione spazio dedicato e limitato numero di operazioni che si possono
+  effettuare sul progetto software. 
+** problemi
+  - un utente o un gruppo di utenti può abusare delle risorse messe a disposizione 
+    e condivise
+  - gli utenti possono fare un uso inefficiente delle risorse del sistema
+** operazioni 
+  Nel caso di Github la maggior parte degli utenti sono esterni.
+  - rate limit per gli utenti
 
 * Configuration Management
   E` un processo per mantenere la consistenza della performance del servizio. 
