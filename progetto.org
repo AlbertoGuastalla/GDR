@@ -2,7 +2,7 @@
   Quando avviene un evento di fallimento, il componente deve notificare il guasto 
   al gestore della rete usando protocolli tipo SMNP.
 ** problemi
-  - outage a livello di paese 
+  - outage elettricita` a livello di paese 
   - componenti hardware si rompono
 ** operazioni
   - hardware monitoring -> hardware failure detection -> operator notification 
