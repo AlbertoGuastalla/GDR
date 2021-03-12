@@ -1,0 +1,13 @@
+Ipotesi: traffico in chiaro
+
+Data analysis: A third party can intercept the transmission of a message and maliciously
+modify its content. Then the modified message is passed to the original receiver. For example,
+it is possible to modify permissions to system resources by this action.
+Disclosure: Confidential information is leaked someone that is not allowed to see this
+information. This can be done by e.g. sniffing the traffic that is not encrypted. Such
+confidential data can in a network environment be e.g. user passwords or accounting
+information. 
+Traffic pattern analysis: The information contents of the messages are ignored and system
+information is extracted from the usual patterns of the traffic flow. 
+
+Monitorare il traffico per poi effettuare altre azioni.
