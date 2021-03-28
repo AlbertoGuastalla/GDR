@@ -5,6 +5,7 @@
 </p>
 
 # Descrizione del progetto
+# GitHub
 
 Il sito è principalmente utilizzato dagli sviluppatori, che caricano il codice sorgente dei loro programmi e lo rendono scaricabile dagli utenti. Questi ultimi possono interagire con lo sviluppatore tramite un sistema di issue tracking, pull request e commenti che permette di migliorare il codice del repository risolvendo bug o aggiungendo funzionalità. Inoltre Github elabora dettagliate pagine che riassumono come gli sviluppatori lavorano sulle varie versioni dei repository.
 
@@ -13,6 +14,68 @@ GitHub fornisce anche altri servizi come Gist, strumenti per creare repository i
 E’ un software per il controllo di versione distribuito tramite Git.
 
 E’ possibile, attraverso un abbonamento (Team, Enterprise, One), usufruire di ulteriori servizi offerti dalla piattaforma stessa.
+
+## Fault Management
+
+  Quando avviene un evento di fallimento, il componente deve notificare il guasto 
+  al gestore della rete usando protocolli tipo SMNP.
+  #### Problemi:
+  - outage elettricita a livello di paese,
+  - componenti hardware si rompono,
+  - attacchi esterni verso il sistema di gestione delle reti (es. DOS),
+  - Malfunzionamento o rottura di un servizio esterno a GitHub.
+  #### Operazioni:
+  - hardware monitoring -> hardware failure detection -> operator notification 
+  - fornire più servizi con funzionalità simili.
+  - disponibilita servizio 24/7
+
+
+## Accounting Management
+  Limitazione spazio dedicato e limitato numero di operazioni che si possono
+  effettuare sul progetto software. 
+ #### Problemi:
+  - un utente o un gruppo di utenti può abusare delle risorse messe a disposizione 
+    e condivise
+  - gli utenti possono fare un uso inefficiente delle risorse del sistema
+ #### Operazioni:
+  Nel caso di Github la maggior parte degli utenti sono esterni.
+  - [Rate Limiting](https://docs.github.com/en/rest/overview/resources-in-the-rest-api#rate-limiting) per gli utenti (nel caso di utilizzo delle API).
+  - limitazione nelòlo spazio di storage.
+
+## Configuration Management
+  E un processo per mantenere la consistenza della performance del servizio. 
+  Il sistema deve aiutare l'operatore della rete affinche possa scegliere 
+  il software piu appropriato per gestire la rete.
+#### Problemi:
+  - non riesco a determinare il componente da cambiare nel caso in cui i requisiti
+    del sistema cambino
+  - outages nel caso in cui viene modificato erroneamente un componente di sistema 
+#### Operazioni:
+  - startup/shutdown schede di rete 
+  - assegnazione ip alle macchine 
+
+## Performance Management
+  Monitorare le componenti affinche si abbia la massima efficienza in termini di prestazioni
+  dei componenti stessi.
+#### Problemi:
+  - costi elevati in quanto viene effettuato un uso eccessivo delle risorse (poca efficienza
+    nell'utilizzo delle componenti)
+  - Elevata latenza nei tempi di download / upload del codice sorgente.
+#### Operazioni:
+  - monitorare componenti affinche non vi siano colli di bottiglia o sprechi di risorse
+
+## Security Management
+  Meccanismi di protezione e controllo degli accessi (generazione chiavi crittografiche,
+  password). Possiamo considerare la parte inerente agli accessi dell'organizzazione che
+  eroga il servizio. Tutti i membri del team di sviluppo dovrebbero avere dei dati di 
+  accesso affinche possano accedere alla rete (organizzazione) interna al servizio.
+#### Problemi:
+  - accessi non autorizzati (al manager e/o agli agents)
+#### Operazioni:
+  - log di tutti gli accessi effettuati alla rete 
+  - segnalazione accessi fraudolenti
+
+
 | Authors | Andrea Audenino <br> (<a href="andrea.audenino@edu.unito.it">andrea.audenino@edu.unito.it</a>) | Alberto Guastalla <br> (<a href="alberto.guastalla@edu.unito.it">alberto.guastalla@edu.unito.it</a>) | Daniele Serafini <br> (<a href="daniele.serafini@edu.unito.it">daniele.serafini@edu.unito.it</a>) | Giacomo Costarelli <br> (<a href="giacomo.costarelli@edu.unito.it">giacomo.costarelli@edu.unito.it</a>) |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
 | Github URLs | <a href="https://github.com/Gilgames000">https://github.com/Gilgames000</a> |  <a href="https://github.com/AlbertoGuastalla">https://github.com/AlbertoGuastalla</a> | <a href="https://github.com/DanSeraf">https://github.com/DanSeraf</a> | <a href="https://github.com/giacomocostarelli">https://github.com/giacomocostarelli</a>  |    
