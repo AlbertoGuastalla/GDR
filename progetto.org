@@ -28,6 +28,7 @@ E' possibile, attraverso un abbonamento (Team, Enterprise, One), usufruire di ul
 ** operazioni 
   Nel caso di Github la maggior parte degli utenti sono esterni.
   - [[https://docs.github.com/en/rest/overview/resources-in-the-rest-api#rate-limiting][rate limit]] per gli utenti
+  - limitazione nelòlo spazio di storage.
 
 * Configuration Management
   E` un processo per mantenere la consistenza della performance del servizio. 
