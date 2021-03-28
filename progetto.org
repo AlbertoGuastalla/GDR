@@ -27,7 +27,7 @@ E' possibile, attraverso un abbonamento (Team, Enterprise, One), usufruire di ul
   - gli utenti possono fare un uso inefficiente delle risorse del sistema
 ** operazioni 
   Nel caso di Github la maggior parte degli utenti sono esterni.
-  - [[https://docs.github.com/en/rest/overview/resources-in-the-rest-api#rate-limiting][rate limit]] per gli utenti
+  - [[https://docs.github.com/en/rest/overview/resources-in-the-rest-api#rate-limiting][rate limit]] per gli utenti (nel caso di utilizzo delle API).
   - limitazione nelòlo spazio di storage.
 
 * Configuration Management
