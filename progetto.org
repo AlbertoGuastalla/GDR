@@ -1,5 +1,5 @@
-# Gestione delle Reti
-#Descrizione del servizio
+Descrizione del servizio
+
 Il sito è principalmente utilizzato dagli sviluppatori, che caricano il codice sorgente dei loro programmi e lo rendono scaricabile dagli utenti. Questi ultimi possono interagire con lo sviluppatore tramite un sistema di issue tracking, pull request e commenti che permette di migliorare il codice del repository risolvendo bug o aggiungendo funzionalità. Inoltre Github elabora dettagliate pagine che riassumono come gli sviluppatori lavorano sulle varie versioni dei repository.
 
 GitHub fornisce anche altri servizi come Gist, strumenti per creare repository individuali e per le pagine web che possono essere modificate tramite un repository di Git, un servizio di hosting ed una piattaforma di statistiche sui siti web.
