@@ -50,7 +50,7 @@ E' possibile, attraverso un abbonamento (Team, Enterprise, One), usufruire di ul
 ** problemi
   - costi elevati in quanto viene effettuato un uso eccessivo delle risorse (poca efficienza
     nell'utilizzo delle componenti)
-  - Elevata latenza nei tempi di upload del codice sorgente.
+  - Elevata latenza nei tempi di download / upload del codice sorgente.
 ** operazioni
   - monitorare componenti affinche` non vi siano colli di bottiglia o sprechi di risorse
 
