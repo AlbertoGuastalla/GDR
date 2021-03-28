@@ -15,8 +15,10 @@ E' possibile, attraverso un abbonamento (Team, Enterprise, One), usufruire di ul
   - outage elettricita` a livello di paese 
   - componenti hardware si rompono
   - attacchi esterni verso il sistema di gestione delle reti (es. DOS)
+  - Malfunzionamento o rottura di un servizio esterno a GitHub.
 ** operazioni
   - hardware monitoring -> hardware failure detection -> operator notification 
+  - fornire più servizi con funzionalità simili.
 
 * Accounting Management
   Limitazione spazio dedicato e limitato numero di operazioni che si possono
