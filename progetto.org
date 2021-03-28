@@ -61,7 +61,7 @@ E' possibile, attraverso un abbonamento (Team, Enterprise, One), usufruire di ul
   eroga il servizio. Tutti i membri del team di sviluppo dovrebbero avere dei dati di 
   accesso affinche` possano accedere alla rete (organizzazione) interna al servizio.
 ** problemi
-  - accessi non autorizzati (non è il vero manager che si autentica)
+  - accessi non autorizzati (al manager e/o agli agents)
 ** operazioni
   - log di tutti gli accessi effettuati alla rete 
   - segnalazione accessi fraudolenti
