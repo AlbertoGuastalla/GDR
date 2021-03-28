@@ -19,6 +19,7 @@ E' possibile, attraverso un abbonamento (Team, Enterprise, One), usufruire di ul
 ** operazioni
   - hardware monitoring -> hardware failure detection -> operator notification 
   - fornire più servizi con funzionalità simili.
+  - disponibilita` servizio 24/7
 
 * Accounting Management
   Limitazione spazio dedicato e limitato numero di operazioni che si possono
