@@ -1,7 +1,7 @@
 # Gestione delle reti
 
 <p align="center">
-  <img src="https://lh3.googleusercontent.com/proxy/dzHa9t_P_PGCzs6hEFhdIUNU3SxpKwii3idrvifF-qtWrRxCqj0YLu3xFVsG2rJrSCAgPiKDe0KAKdwQiTUfBvsQRJDk84G_41_4Ly-jO11TTpSWNXqwmQ"/>
+  <img src="https://lh3.googleusercontent.com/proxy/PRH2GjWdESV53RY1qSRxbhqFAekTDHpXK1fTp78CQ0YrOxtf6738ZbcHj2DNXfRL_JKwygHZQ7N5Z5P5ff3sR6-e_ejzgWYbVlYQTTeYTHed5E1E36hPQA"/>
 </p>
 
 # Descrizione del progetto
