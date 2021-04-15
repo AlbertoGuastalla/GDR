@@ -1,0 +1,11 @@
+Rete
+Gestione utenti multipli, load balancing.
+
+Elaborazione
+Servizi di terze parti elaborano le informazioni degli utenti della piattaforma, servizio di compressione dei dati lossless.
+
+Memorizzazione
+Storing dei commits e dei logs.
+
+Sicurezza
+Autenticazione tramite TLS, SSH, scambio di token con servizi di terze parti.
